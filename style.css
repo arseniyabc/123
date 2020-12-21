@@ -1,0 +1,61 @@
+body {
+    background-image: url(bgc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Amatic SC', cursive;
+}
+input, select,textarea {
+    padding: 30px;
+    margin-top: 5px;
+    border-radius: 30px;
+    border-color: #1abc9c;
+    border-style: solid;
+    width: 400px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+input::placeholder {
+    color:black;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    
+}
+form {
+    background-color: white;
+    width: 1000px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px;
+    border: 10px;
+    border-style: double;
+    border-color: cornflowerblue;
+    border-radius: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+legend {
+    font-size: 20px;
+    text-align: left;
+}
+label {
+    display:block;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.two {
+    display: inline-block;
+}
+.three {
+    width:80px;
+}
+.four {
+    margin-top:  20px;
+    background-color:white;
+}
+.four:hover {
+    background-color:  #1abc9c;
+}

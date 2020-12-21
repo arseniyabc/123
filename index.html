@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>lesson_9</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <h1>Анкета ученика</h1>
+    <form>
+        <fieldset>
+           <legend>Контактная информация</legend>
+            <input placeholder="введите имя" type="text"><br>
+            <input placeholder="введите номер телефона" type="number"><br>
+            <input placeholder="введите email" type="email"><br>
+        </fieldset>
+        
+        
+        <fieldset>
+            <legend>Личная информация</legend>
+            <label>Дата рождения</label>
+            <input placeholder="" type="date"><br>
+           <label>Какой предмет вам нужен?</label>
+           <select>
+               <option>Английский язык</option>
+               <option>Математика</option>
+               <option>Русский язык</option>
+           </select>
+        </fieldset>
+        <fieldset>
+            <legend>Обратная связь</legend>
+            <label>Посоветуете Вы нас друзьям?</label>
+            <input class="two three" type="radio" name="one">
+            <label class="two">Да</label>
+            <input class="two three" type="radio" name="one">
+            <label class="two">Нет</label>
+            <input class="two three"  type="radio" name="one">
+            <label class="two">Конечно</label>
+            <label>Осьавьте комментарий :)</label>
+            <textarea></textarea>
+        </fieldset>
+        <input class="two three" type="checkbox">
+        <label class="two">Разрешить оброботку данных</label>
+        <input class="two three" type="checkbox">
+        <label class="two">Присылать новости на почту</label><br>
+        <input class="four" type="submit">
+    </form>
+</body>
+
+</html>
